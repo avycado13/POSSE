@@ -4,7 +4,7 @@ import { ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { colors } from '../colors';
 
 import type { RouteParamList } from '../App';
-import ListItem from '../../components/ListItem';
+import ListItem from '../components/ListItem';
 
 type PaymentMethodTypeWrapper = {
   type: string;

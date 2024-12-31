@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import { colors } from '../src/colors';
+import { colors } from '../colors';
 
 type Props = AccessibilityProps & {
   title?: string | React.ReactElement;

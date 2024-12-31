@@ -6,8 +6,8 @@ import {
   StyleSheet,
   TextInput,
 } from 'react-native';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
 import { useStripeTerminal } from '@stripe/stripe-terminal-react-native';
 import { colors } from '../colors';
 

@@ -9,9 +9,9 @@ import {
   CommonError,
 } from '@stripe/stripe-terminal-react-native';
 import { colors } from '../colors';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
-import { LogContext } from '../../components/LogContext';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
+import { LogContext } from '../components/LogContext';
 import type { RouteParamList } from '../App';
 import { AppContext } from '../AppContext';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';

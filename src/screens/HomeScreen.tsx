@@ -11,8 +11,8 @@ import {
 } from 'react-native';
 import { colors } from '../colors';
 import icon from '../assets/icon.png';
-import ListItem from '../../components/ListItem';
-import List from '../../components/List';
+import ListItem from '../components/ListItem';
+import List from '../components/List';
 import {
   getDiscoveryMethod,
   setDiscoveryMethod as setStoredDiscoveryMethod,

@@ -4,8 +4,8 @@ import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useStripeTerminal } from '@stripe/stripe-terminal-react-native';
 import { colors } from '../colors';
 import icon from '../assets/icon.png';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
 
 import type { RouteParamList } from '../App';
 

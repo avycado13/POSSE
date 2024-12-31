@@ -2,8 +2,8 @@ import React from 'react';
 import { ScrollView, Text, StyleSheet, Dimensions } from 'react-native';
 import { useRoute, RouteProp } from '@react-navigation/core';
 import { colors } from '../colors';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
 import type { RouteParamList } from '../App';
 
 const LogScreen = () => {

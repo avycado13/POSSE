@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { ScrollView, StyleSheet, Text } from 'react-native';
 import { colors } from '../colors';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
 import {
   OfflineStatus,
   useStripeTerminal,

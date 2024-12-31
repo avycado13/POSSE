@@ -1,6 +1,6 @@
 import React from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
-import { colors } from '../src/colors';
+import { colors } from '../colors';
 
 type Props = {
   title?: string;

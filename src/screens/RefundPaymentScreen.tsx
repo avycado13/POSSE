@@ -4,9 +4,9 @@ import { Platform, StyleSheet, Switch, Text, TextInput } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { useStripeTerminal } from '@stripe/stripe-terminal-react-native';
 import { colors } from '../colors';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
-import { LogContext } from '../../components/LogContext';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
+import { LogContext } from '../components/LogContext';
 import { AppContext } from '../AppContext';
 import type { RouteParamList } from '../App';
 

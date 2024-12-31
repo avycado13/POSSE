@@ -19,8 +19,8 @@ import type { StripeError } from '@stripe/stripe-terminal-react-native';
 import { colors } from '../colors';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/core';
 import { Picker } from '@react-native-picker/picker';
-import ListItem from '../../components/ListItem';
-import List from '../../components/List';
+import ListItem from '../components/ListItem';
+import List from '../components/List';
 
 import type { RouteParamList } from '../App';
 

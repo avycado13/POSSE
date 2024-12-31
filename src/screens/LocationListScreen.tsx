@@ -12,7 +12,7 @@ import {
   useStripeTerminal,
 } from '@stripe/stripe-terminal-react-native';
 import { colors } from '../colors';
-import ListItem from '../../components/ListItem';
+import ListItem from '../components/ListItem';
 
 import type { RouteParamList } from '../App';
 

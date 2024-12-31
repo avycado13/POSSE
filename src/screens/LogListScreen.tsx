@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { useContext } from 'react';
 import { BackHandler, ScrollView, Text, StyleSheet } from 'react-native';
-import { LogContext } from '../../components/LogContext';
+import { LogContext } from '../components/LogContext';
 import { useNavigation } from '@react-navigation/core';
 import { colors } from '../colors';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
 import { HeaderBackButton } from '@react-navigation/stack';
 
 const LogListScreen = () => {

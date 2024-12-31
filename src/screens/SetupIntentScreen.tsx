@@ -8,13 +8,13 @@ import {
   StripeError,
 } from '@stripe/stripe-terminal-react-native';
 import { colors } from '../colors';
-import { LogContext } from '../../components/LogContext';
+import { LogContext } from '../components/LogContext';
 import { AppContext } from '../AppContext';
 
 import type { RouteParamList } from '../App';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
 
 export default function SetupIntentScreen() {
   const { api } = useContext(AppContext);

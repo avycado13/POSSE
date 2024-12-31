@@ -12,8 +12,8 @@ import {
 } from 'react-native';
 import { colors } from '../colors';
 import { AppContext } from '../AppContext';
-import List from '../../components/List';
-import ListItem from '../../components/ListItem';
+import List from '../components/List';
+import ListItem from '../components/ListItem';
 
 type InputValuesType = {
   registration_code: string;
