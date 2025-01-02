@@ -1,3 +1,4 @@
+import 'expo-dev-client';
 import React, { useCallback, useMemo, useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import {

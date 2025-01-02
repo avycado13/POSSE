@@ -24,7 +24,7 @@ export default function RefundPaymentScreen() {
     chargeId: lastSuccessfulChargeId || '',
     paymentIntentId: '',
     amount: '100',
-    currency: 'CAD',
+    currency: 'USD',
     refundApplicationFee: false,
     reverseTransfer: false,
     enableCustomerCancellation: false,
