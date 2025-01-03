@@ -6,6 +6,7 @@ import {
   HeaderBackButton,
   TransitionPresets,
 } from '@react-navigation/stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from './screens/HomeScreen';
 import { Platform, StatusBar, StyleSheet } from 'react-native';
 import { colors } from './colors';
@@ -81,6 +82,7 @@ LogBox.ignoreLogs([
 ]);
 
 const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
 
 const screenOptions = {
   headerTintColor: colors.white,
